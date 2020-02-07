@@ -1,0 +1,599 @@
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+h1, h2, h3, h4, h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+body{
+	color: #5a5a5a;
+	font-family: 'Open Sans', sans-serif;
+}
+/*Header Styles*/
+.bg-light{
+	background-color: #ffffff!important;
+}
+.social-media a{
+	display: inline;
+	padding: 0 5px;
+	vertical-align: sub;
+}
+.logo{
+	max-width: 230px;
+}
+.nav-link{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.social-media a img{
+	background: #9BC84B;
+	border-radius: 5px;
+	width: 30px;
+	padding: 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 16px;
+}
+
+/*Footer Styles*/
+footer{
+	background: #9BC84B;
+	padding-top: 450px;
+	color: #fff;
+}
+.footer-page footer{
+	padding-top: 150px
+}
+.footer-1{
+	border-top: 1px solid #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.footer-1 img{
+	max-width: 270px;
+}
+.footer-1 .col-md-4{
+	text-align: center;
+}
+.footer-1 .col-md-4 p{
+	padding: 30px 80px 0 80px;
+	margin-bottom: 0;
+	font-size: 16px;
+	text-align: left;
+}
+.footer-1 .col-md-8 ul{
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.footer-1 .col-md-8 ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.footer-1 .col-md-8 ul li a{
+	color: #fff;
+	font-size: 15px;
+}
+
+/*General Styles*/
+.cover-black{
+	background: rgba(0, 0, 0, 0.15);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.list-menu{
+	padding: 15px 0;
+}
+.list-menu p{
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.list-menu p a{
+	color: #9BC84B;
+}
+.button-green{
+	background-color: #9BC84B;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 8px;
+	line-height: 16px;
+	padding: 10px;
+	display: inline-block;
+}
+.button-green img{
+	width: 25px;
+    border-right: 1px solid #fff;
+    margin-right: 8px;
+    padding: 5px 5px;
+    display: inline
+}
+.button-green{
+	transition: all .3s;
+}
+.button-green:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.tree-columns{
+	background: #ffffff;
+	padding: 20px 0;
+	border-radius: 25px;
+}
+.tree-columns-2{
+	margin-top: -91px;
+	padding: 50px;
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+}
+.tree-columns .col-md-2 img{
+	width: 90px;
+}
+.tree-columns h3{
+	font-size: 25px;
+}
+.blog-list .content-image-blog{
+	min-height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+.blog-one .content-image-blog{
+	min-height: 350px;
+}
+.blog-list{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.blog-list p{
+	font-size: 16px;
+}
+.blog-list h3{
+	font-size: 25px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	min-height: 90px;
+}
+.blog-list .container-post-info{
+	padding: 15px 15px 20px 15px;
+}
+.blog-list .blog-content-post{
+	border-radius: 25px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+}
+.blog-list-three{
+	margin-bottom: -40%;
+}
+.seminar-post{
+	border-bottom: 1px solid #5A5A5A;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.seminar-post .seminar-img{
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	min-height: 240px;
+}
+.seminar-post p{
+	padding-top: 15px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+.seminar-post h2{
+	font-size: 40px;
+}
+.list-green{
+	padding-left: 0;
+	list-style: none;
+}
+.list-green li{
+	line-height: 27px;
+}
+.list-green li::before{
+	content: url(../images/tick-16px.png);
+	margin-right: 5px;
+}
+
+/*Home Styles*/
+.home-1{
+    position: relative;
+}
+.home-1 .slider .slid-container{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+}
+.home-1 .slider .slid-container .row{
+	min-height: 500px;
+}
+.home-1 .slider .slid-container ul{
+	list-style: none;
+}
+.home-1 .slider .slid-container ul li{
+	font-weight: bold;
+	font-size: 40px;
+	color: #5A5A5A;
+	position: relative;
+}
+.home-1 .slider .slid-container ul li::before{
+	content: url(../images/tick.png);
+	width: 30px;
+	position: absolute;
+	left: -40px;
+}
+.home-1 h1{
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000000;
+	position: absolute;
+	font-size: 20px;
+	top: 2%;
+	left: 30px;
+	z-index: 10;
+}
+.home-2{
+	padding: 50px 0;
+}
+.home-2 h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+.home-2 p{
+	margin: 20px 0;
+	font-size: 16px;
+}
+.border-green{
+	width: 90px;
+	height: 5px;
+	background: #9BC84B;
+	display: block;
+	border-radius: 5px;
+}
+.icon-container{
+	margin-bottom: 20px;
+}
+.icon-container img{
+	width: 70px;
+	margin-bottom: 10px;
+}
+.icon-container h3{
+	font-size: 23px;
+	font-weight: bold
+}
+.home-3{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	background-image: url(../images/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.jpg);
+}
+.home-3 .container{
+	position: relative;
+	z-index: 10;
+}
+.home-3 .row{
+	min-height: 500px;
+}
+.home-3 .big-p{
+	font-size: 80px;
+	line-height: 97px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.home-3 .stefanie-plum{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+.home-4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.home-4{
+	border-bottom: 1px solid #5a5a5a;
+}
+.home-4 h2{
+	font-size: 40px;
+}
+.home-4 .col-md-5 p{
+	font-size: 16px;
+	margin-top: 10px;
+	padding-bottom:  20px;
+}
+.home-5{
+	padding: 40px 0;
+}
+.home-5 h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+.home-5 p{
+	margin: 20px 0;
+	font-size: 16px;
+}
+.home-5 .row{
+	margin-top: 40px;
+}
+.home-6{
+	background-image: url(../images/SandraSeifenFotografie-4120_helgrau_test.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.home-6 .row{
+	min-height: 500px;
+}
+.home-6 p{
+	padding-top: 15px;
+}
+.home-8{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*Seminare Styles*/
+.seminare-1{
+	background-image: url(../images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.seminare-1 .row{
+	min-height: 500px;
+}
+.seminare-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.seminare-4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*Coachings Styles*/
+.coachings-1{
+	background-image: url(../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.coachings-1 .row{
+	min-height: 500px;
+}
+.coachings-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.coachings-4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*Uber Mich Styles*/
+.uber-1{
+	background-image: url(../images/alesia-kazantceva-VWcPlbHglYc-unsplash_TEST_Kopie.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.uber-1 .row{
+	min-height: 500px;
+}
+.uber-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.uber-4{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	background-image: url(../images/brooke-cagle-4rgGY-Aa308-unsplash.jpg);
+}
+.uber-4 .container{
+	position: relative;
+	z-index: 10;
+}
+.uber-4 .row{
+	min-height: 500px;
+}
+.uber-4 .big-p{
+	font-size: 70px;
+	line-height: 86px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.uber-4 .stefanie-plum{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+.uber-6{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.uber-5{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.uber-container .uber-image{
+	min-height: 240px;
+	border-radius: 25px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15px;
+}
+.uber-7{
+	background: #f2f2f2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.uber-7 .tree-columns{
+	padding: 30px 0;
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+}
+.uber-7 .tree-columns .col-md-3 img{
+	max-width: 90px;
+}
+.uber-7 .tree-columns p{
+	padding-right: 50px;
+}
+
+/*Blog Styles*/
+.blog-1{
+	background-image: url(../images/artur-luczka-loAfOVk1eNc-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.blog-1 .row{
+	min-height: 500px;
+}
+.blog-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.blog-2{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.blog-2 a {
+	color: #fff;
+}
+.blog-3{
+	margin-top: -180px;
+}
+.blog-5 .form-check-label{
+	cursor: pointer;
+}
+.blog-7{
+	margin-bottom: -85px;
+}
+.blog-7 .tree-columns{
+	padding: 30px 0;
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+}
+.blog-7 .tree-columns .col-md-3 img{
+	max-width: 90px;
+}
+.blog-7 .tree-columns p{
+	padding-right: 50px;
+}
+.blog-4 .blog-list .blog-content-post{
+	margin-bottom: 30px;
+}
+/*Single Styles*/
+.single-post-1{
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.single-post-1 .row{
+	min-height: 500px;
+}
+.single-post-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 97px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.single-post .row .col-md-10 p{
+	margin-top: 15px;
+}
+.single-post .row .col-md-10 img{
+	border-radius: 25px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+.single-post{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.single-post-2 .tree-columns{
+	box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+}
+/*Kontakt Styles*/
+.kontakt-1{
+	background-image: url(../images/samuel-zeller-111218-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.kontakt-1 .row{
+	min-height: 500px;
+}
+.kontakt-1 h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 0;
+}
+.kontakt-3 h3{
+	margin-bottom: 0;
+}
+.kontakt-4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	min-height: 300px;
+}
+/*Responsive Styles*/
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1rem;
+	    padding-left: 1rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-item.social-media .nav-link{
+		padding: 0 5px;
+	}
+}
