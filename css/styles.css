@@ -266,7 +266,7 @@ footer{
 	margin-bottom: 10px;
 }
 .icon-container h3{
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: bold
 }
 .home-3{
@@ -596,4 +596,123 @@ footer{
 	.navbar-expand-lg .navbar-nav .nav-item.social-media .nav-link{
 		padding: 0 5px;
 	}
+}
+@media (max-width: 575px){
+	.navbar{
+		padding: .5rem 0rem;
+	}
+	.home-3 .big-p{
+	    font-size: 49px;
+	    line-height: 66px;
+	}
+	.uber-4 .big-p{
+		font-size: 40px;
+		line-height: 57px;
+	}
+	.home-2 h2, .home-5 h2, .seminar-post h2{
+	    font-size: 30px;
+	}
+	.icon-container h3{
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+		font-size: 21px;
+	}
+	.tree-columns h3{
+		font-size: 20px;
+	}
+	.button-green{
+		font-size: 12px;
+	}
+	.container{
+		overflow: hidden;
+	}
+	.icon-container img{
+		margin-bottom: 0;
+		vertical-align: middle;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.home-6{
+		background-position: inherit;
+		background-position-x: 87%;
+	}
+	.tree-columns-2{
+		margin-top: 0;
+		box-shadow: none;
+	}
+	.home-7{
+		box-shadow: 10px 15px 30px rgba(0,0,0,0.15);
+	}
+	.home-4 .col-md-5{
+		margin-bottom: 40px;
+	}
+	.tree-columns{
+		padding: 25px 0;
+		border-radius: 0;
+	}
+	.blog-list-three{
+		margin-bottom: 0;
+	}
+	.blog-list .blog-content-post{
+		font-size: 0;
+		margin-bottom: 25px;
+	}
+	.blog-list .container-post-info{
+		padding: 10px;
+	    width: 65%;
+	    vertical-align: top;
+	    display: inline-block;
+	}
+	.blog-list .content-image-blog{
+		min-height: 152px;
+	    display: inline-block;
+	    vertical-align: top;
+	    width: 35%;
+	}
+	.blog-list h3 {
+	    font-size: 16px;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	    min-height: inherit;
+	}
+	.blog-list .button-green {
+	    background-color: #9BC84B;
+	    color: #fff;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: bold;
+	    font-size: 14px;
+	    border-radius: 8px;
+	    line-height: 16px;
+	    padding: 5px;
+	    display: inline-block;
+	}
+	.blog-one.blog-list .content-image-blog{
+		min-height: 200px;
+		width: 100%;
+	}
+	.uber-5 .col-md-4{
+		margin-bottom: 25px;
+	}
+	.footer-1 img{
+		margin-bottom: 20px;
+	}
+	.footer-1 .col-md-4{
+		text-align: left;
+	}
+	.footer-1 .col-md-4 p{
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.blog-7{
+		margin-bottom: 0;
+	}
+	.blog-7 .tree-columns p{
+		margin-right: 0!important;
+		margin-bottom: 20px!important;
+	}
+	footer, .footer-page footer{
+		padding-top: 0;
+	}
+
 }
